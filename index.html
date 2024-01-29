@@ -1,0 +1,48 @@
+<html>
+<head>
+	<script async src="main.js"> </script>
+	<link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<header> The Berry Plantation</header>
+<div id="MAINPAGE">
+  <div id="PLANTBOX">
+    <div id="IMGCONTAINER"><img src="https://www.shenandoahpaint.com/cdn/shop/products/8A6348_600x600_crop_center.png?v=1606783900" width=300px id="BERRYFARM"> </div>
+    <button id="GROWBUTTON"> Click here to grow </button>
+    <button id="HARVESTBUTTON" style="display:none"> Click here to harvest </button>
+  </div>
+  <div>
+    <div id="GROWCONTAINER"> <span id="GROWTIME"> Grow time: 00:00 </span> <br> <span id="CURGROWTIME"> Current grow time: </span> <span id="TIMER"> 00:00 </span> </div>
+    <div id="MONEYBERRYCOUNTER"><b>
+        <p id="COUNTER"> Berry Amount: 0 </p>
+        <p id="MONEY"> Money Amount: 0</p>
+      </b> </div>
+    <div id="PALBOX">
+      Pal Box
+      <div class="HORIZONAL">
+        <div class="PALS" id="PAL1"></div>
+        <div class="PALS" id="PAL2"></div>
+        <div class="PALS" id="PAL3"></div>
+      </div>
+      <div class="HORIZONAL">
+        <div class="PALS" id="PAL4"></div>
+        <div class="PALS" id="PAL5"></div>
+        <div class="PALS" id="PAL6"></div>
+      </div>
+    </div>
+    <div id="KNIFE" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src = "https://png.pngtree.com/png-vector/20220622/ourmid/pngtree-cleaver-large-cook-knife-with-wooden-handle-vector-png-image_5160375.png" width= 100px >
+    </div> </div>
+  <b>
+    <div id="SHOP"> Shop:
+      <div class="BOX"> <button id="SELLBERRIES"> Sell Berries (+$1)</button> <button id="BASEUPGRADE"> 1$ - Base upgrade (+1 Pal)</button><br><br>
+        <button id="SPARKIT"> 1$- Sparkit (-5s Grow Time)</button> <button id="LIFMUNK"> 1$ - Lifmunk (Auto Plant)</button> <br> <button id="FUDDLER"> 1$ - Fuddler (Auto Harvest)</button><button id="CATTIVA"> 1$ - Cattiva (Auto Sell)</button>
+  </b>
+      
+</div>
+
+</div>
+
+</div>
+</body>
+</html>

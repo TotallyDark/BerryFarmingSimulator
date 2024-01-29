@@ -1,0 +1,59 @@
+#MAINPAGE {
+  display:flex;
+}
+header {
+  font-size: 30px;
+}
+#SHOP {
+  display:block;
+  padding-left: 50px;
+}
+#COUNTER:hover {
+  color: red;
+}
+#MONEY:hover {
+  color: green;
+}
+.BOX {
+  border:2px solid red;
+}
+#GROWCONTAINER {
+  border:2px solid;
+  padding: 2px;
+  margin-bottom : 5px;
+  margin-left : 2px;
+}
+#MONEYBERRYCOUNTER {
+  border:2px solid blue;
+  margin-left : 2px;
+  margin-bottom : 5px;
+}
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/04/66/86/56/360_F_466865652_vXCfYiTlh5v8Qd5TS8O7YV412vr1tg2b.jpg")
+}
+#PALBOX {
+  border:2px solid green;
+  margin-left : 2px;
+  
+}
+.PALS {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  
+}
+.HORIZONAL {
+  display:flex;
+}
+.PALS {
+  display: none;
+}
+#PAL1{
+  display: inline-block;
+}
+#GROWBUTTON {
+  display: inline-block;
+}
+#CATTIVA, #FUDDLER, #SPARKIT, #LIFMUNK{
+  margin:2.5px;
+}
